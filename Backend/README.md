@@ -39,7 +39,7 @@ pip install flask flask-cors opencv-python numpy ultralytics
 2. Start the API server:
 
 ```bash
-python start_api_server.py
+python BackEnd\run.py
 ```
 
 The server will run on http://localhost:5000 by default.
