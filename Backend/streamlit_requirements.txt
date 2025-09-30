@@ -1,0 +1,51 @@
+# SignBridge Streamlit Demo Requirements
+# Install with: pip install -r streamlit_requirements.txt
+
+# Core Streamlit and Web Framework
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+Pillow>=9.5.0
+numpy>=1.24.0
+
+# Machine Learning and AI
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+supervision>=0.15.0
+
+# Audio Processing (for speech features)
+pyaudio>=0.2.11
+speechrecognition>=3.10.0
+pydub>=0.25.1
+
+# Natural Language Processing
+nltk>=3.8.0
+textblob>=0.17.1
+
+# Data Processing and Utilities
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# File Handling and System
+pathlib2>=2.3.7
+tempfile
+base64
+json
+io
+time
+threading
+
+# HTTP and API
+requests>=2.31.0
+
+# Development and Testing
+pytest>=7.4.0
+python-dotenv>=1.0.0
+
+# Optional: For enhanced features
+plotly>=5.15.0
+bokeh>=3.2.0

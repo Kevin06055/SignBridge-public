@@ -1,0 +1,1 @@
+# Blueprints package for SignBridge backend API endpoints
