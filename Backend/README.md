@@ -49,8 +49,11 @@ The server will run on http://localhost:5000 by default.
 1. Navigate to the sign-talk-pal directory:
 
 ```bash
-cd sign-talk-pal
+cd Frontend
 ```
+## The above submodule is containerized into private repo for changes, requires authentication.
+## You can check out the front at https://signbridge-1243.web.app
+
 
 2. Install dependencies:
 
