@@ -1,0 +1,108 @@
+[debug] [2026-02-20T12:50:52.480Z] ----------------------------------------------------------------------
+[debug] [2026-02-20T12:50:52.489Z] Command:       C:\Users\KevinJc\AppData\Roaming\npm\node.exe C:\Users\KevinJc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:addfirebase project-fd97e7e8-6a88-48b2-9d7
+[debug] [2026-02-20T12:50:52.489Z] CLI Version:   14.17.0
+[debug] [2026-02-20T12:50:52.489Z] Platform:      win32
+[debug] [2026-02-20T12:50:52.489Z] Node Version:  v22.5.1
+[debug] [2026-02-20T12:50:52.490Z] Time:          Fri Feb 20 2026 18:20:52 GMT+0530 (India Standard Time)
+[debug] [2026-02-20T12:50:52.490Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-20T12:50:52.495Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-02-20T12:50:52.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-20T12:50:52.550Z] > authorizing via signed-in user (kkevinjc328@gmail.com)
+[debug] [2026-02-20T12:50:52.553Z] Checked if tokens are valid: false, expires at: 1771492385642
+[debug] [2026-02-20T12:50:52.553Z] Checked if tokens are valid: false, expires at: 1771492385642
+[debug] [2026-02-20T12:50:52.553Z] > refreshing access token with scopes: []
+[debug] [2026-02-20T12:50:52.554Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-20T12:50:52.554Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-20T12:50:53.481Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-20T12:50:53.481Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-20T12:50:53.556Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/project-fd97e7e8-6a88-48b2-9d7:addFirebase [none]
+[debug] [2026-02-20T12:50:53.880Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-02-20T12:50:53.881Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-02-20T12:50:55.637Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/project-fd97e7e8-6a88-48b2-9d7:addFirebase 200
+[debug] [2026-02-20T12:50:55.637Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/project-fd97e7e8-6a88-48b2-9d7:addFirebase {"name":"operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2"}
+[debug] [2026-02-20T12:50:55.638Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:50:55.638Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:50:55.638Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 [none]
+[debug] [2026-02-20T12:50:57.142Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 200
+[debug] [2026-02-20T12:50:57.142Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 {"name":"operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2"}
+[debug] [2026-02-20T12:50:57.650Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2026-02-20T12:50:57.650Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:50:57.650Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:50:57.650Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 [none]
+[debug] [2026-02-20T12:50:58.129Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 200
+[debug] [2026-02-20T12:50:58.129Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 {"name":"operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2"}
+[debug] [2026-02-20T12:50:59.133Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2026-02-20T12:50:59.133Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:50:59.133Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:50:59.133Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 [none]
+[debug] [2026-02-20T12:50:59.501Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 200
+[debug] [2026-02-20T12:50:59.501Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 {"name":"operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2"}
+[debug] [2026-02-20T12:51:01.511Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2026-02-20T12:51:01.512Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:51:01.512Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:51:01.512Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 [none]
+[debug] [2026-02-20T12:51:01.896Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 200
+[debug] [2026-02-20T12:51:01.896Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 {"name":"operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2"}
+[debug] [2026-02-20T12:51:05.908Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2026-02-20T12:51:05.909Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:51:05.909Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:51:05.909Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWIwNDNiMDQtNmIxNS00MDUzLTkxODAtODYwMzdmY2UyNWQ2 [none]
+[debug] [2026-02-20T12:51:15.748Z] ----------------------------------------------------------------------
+[debug] [2026-02-20T12:51:15.750Z] Command:       C:\Users\KevinJc\AppData\Roaming\npm\node.exe C:\Users\KevinJc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-02-20T12:51:15.750Z] CLI Version:   14.17.0
+[debug] [2026-02-20T12:51:15.751Z] Platform:      win32
+[debug] [2026-02-20T12:51:15.751Z] Node Version:  v22.5.1
+[debug] [2026-02-20T12:51:15.751Z] Time:          Fri Feb 20 2026 18:21:15 GMT+0530 (India Standard Time)
+[debug] [2026-02-20T12:51:15.751Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-20T12:51:15.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-20T12:51:15.756Z] > authorizing via signed-in user (kkevinjc328@gmail.com)
+[debug] [2026-02-20T12:51:15.758Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:51:15.758Z] Checked if tokens are valid: true, expires at: 1771595452482
+[debug] [2026-02-20T12:51:15.759Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-02-20T12:51:17.224Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-02-20T12:51:17.224Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌──────────────────────┬───────────────────────────┬────────────────┬──────────────────────┐
+│ Project Display Name │ Project ID                │ Project Number │ Resource Location ID │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ aabba-123            │ aabba-123                 │ 819209574720   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ testing              │ birthday-mahati           │ 671380729608   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ devnovus-in          │ devnovus-in               │ 39518963059    │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ ExcelSearcher        │ excelsearcher-ab1bf       │ 328572653535   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ foodoo-10890         │ foodoo-10890              │ 907142263358   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ foodoo               │ foodoo-4eb46              │ 830083358254   │ us-central           │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ hamsa                │ hamsa-13055               │ 509697470066   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ medsys-1543          │ medsys-1543               │ 206036531495   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ nutstores-123        │ nutstores-123             │ 973065315339   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ portfolio-u0         │ portfolio-u0              │ 425541766087   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ signbridge-1243      │ signbridge-1243           │ 870481603429   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ SmartIndiaHackathon  │ smartindiahackathon-7cce3 │ 1080547102397  │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ testing              │ testing-a3269             │ 433909272468   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ Testing              │ testing-da11a             │ 598335676459   │ asia-southeast2      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ timer-020            │ timer-020                 │ 977226776683   │ [Not specified]      │
+├──────────────────────┼───────────────────────────┼────────────────┼──────────────────────┤
+│ Webapp               │ webapp-f5c19              │ 873729242706   │ [Not specified]      │
+└──────────────────────┴───────────────────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 16 project(s) total.
+[debug] [2026-02-20T12:51:22.668Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\KevinJc\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:275:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
